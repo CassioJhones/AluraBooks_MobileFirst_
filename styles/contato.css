@@ -36,12 +36,23 @@
   padding-left: 2.3em;
 }
 
-hr{
-  margin: 0;
-}
-.rodape{
-  background-color: var(--branco);
-  padding: 1em;
-  font-size: 16px;
-  font-weight: 400;
+@media screen and (min-width: 1024px) {
+  .contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contato__email {
+    width: 30%;
+  }
+
+  .contato__titulo {
+    font-size: 24px;
+  }
+
+  .contato__descricao {
+    margin-right: 1em;
+    width: 30%;
+  }
 }
